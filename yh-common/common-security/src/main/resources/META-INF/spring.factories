@@ -1,0 +1,7 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.yh.common.security.service.UserDetailsServiceImpl,\
+  com.yh.common.security.handler.CustomAccessDeniedHandler,\
+  com.yh.common.security.component.ResourceAuthExceptionEntryPoint,\
+  com.yh.common.security.aspect.InnerAspect
+
+  
